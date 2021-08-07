@@ -75,11 +75,3 @@ public class MainActivity extends AppCompatActivity implements clickListener {
                         show();
     }
 }
-/*
-@Override
-    public void onClick(int position, BirdModel BirdModel) {
-        String name = BirdModel.getName();
-        Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
-        adapter.notifyItemChanged(position);
-    }
- */
